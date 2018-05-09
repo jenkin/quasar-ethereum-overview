@@ -1,0 +1,166 @@
+/* General */
+* {
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+	max-width: 640px;
+	margin: auto;
+	background-color: #8d8d8d;
+	color: #0c0c0c;
+	font-size: 18px;
+	font-family: 'Alegreya Sans', sans-serif;
+	padding: 12px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Nunito', sans-serif;
+}
+
+/* Header */
+#main-header {
+	text-align: center;
+}
+
+#main-header .logo img {
+	width: 128px;
+}
+
+#main-header .title {
+	font-size: 64px;
+	border-bottom: 1px solid #0c0c0c;
+}
+
+#main-header .subtitle {
+	text-transform: uppercase;
+}
+
+/* Menu */
+.menu {
+	padding: 12px;
+}
+
+.menu .menu__item {
+	margin: 12px 24px;
+	padding: 6px 12px;
+	background-color: #313131;
+	color: white;
+	text-decoration: none;
+	white-space: nowrap;
+	display: inline-block;
+	position: relative;
+}
+
+.menu .menu__item.up {
+	bottom: 4px;
+}
+
+.menu .menu__item.down {
+	top: 4px;
+}
+
+/* Content */
+#main-content .intro {
+	text-align: right;
+	border-right: 5px solid #0c0c0c;
+	padding-right: 16px;
+}
+
+#main-content .intro .title {
+	text-transform: capitalize;
+}
+
+#main-content .intro main {
+	font-style: italic;
+	line-height: 18px;
+}
+
+#main-content .highlight {
+	font-weight: bold;
+}
+
+#main-content .intro footer {
+	font-size: smaller;
+	margin-top: 32px;
+}
+
+#main-content .intro footer > * {
+	border-top: 1px solid #0c0c0c;
+	padding-top: 6px;
+}
+
+/* Figure */
+section figure {
+	width: 33%;
+	margin-top: 0;
+}
+
+section figure.right {
+	float: right;
+	margin-right: 0;
+	margin-top: 0;
+}
+
+section figure.left {
+	float: left;
+	margin-left: 0;
+}
+
+section figure img {
+	width: 100%;
+}
+
+section figure figcaption {
+	font-size: smaller;
+}
+
+/* Hidden paragraph */
+.overlay {
+	background-color: #0c0c0c;
+    opacity: 0.9;
+	color: white;
+	text-align: center;
+}
+
+.overlay.welcome {
+    position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+
+.obfuscated {
+	position: relative;
+}
+
+.obfuscated .overlay {
+    position: absolute;
+    top: -1%;
+    left: -1%;
+    width: 102%;
+    height: 102%;
+}
+
+/* Footer */
+#main-footer {
+		font-size: smaller;
+		margin-top: 32px;
+		padding: 16px 0px;
+		border-top: 1px solid #313131;
+		text-align: center;
+} 
+
+/* Cookie notice */
+#cookie-notice {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	padding: 1em;
+	background-color: rgba(255, 255, 255, 0.8);
+	z-index: 2;
+}

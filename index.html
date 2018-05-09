@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <meta charset="utf8">
+        
+        <title>Ethereum</title>
+        
+        <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Nunito" rel="stylesheet">
+        <link href="css/index.css" rel="stylesheet" type="text/css">
+
+    </head>
+
+    <body>
+    
+		<div id="welcome-notice" class="overlay welcome">
+			<h1>Benvenuto!</h1>
+			<button onclick="javascript:document.getElementById('welcome-notice').setAttribute('style','display:none');">Leggi tutto su Ethereum...</button>
+		</div>
+
+        <header id="main-header">
+
+            <figure class="logo">
+                <a title="By Ethereum Foundation [CC BY 3.0 (http://creativecommons.org/licenses/by/3.0)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3AEthereum_logo_2014.svg" target="_blank">
+                    <img alt="Ethereum logo 2014" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Ethereum_logo_2014.svg/256px-Ethereum_logo_2014.svg.png"/>
+                </a>
+            </figure>
+
+            <h1 class="title">Ethereum</h1>
+            <h2 class="subtitle">Un computer mondiale decentralizzato basato sulla blockchain</h2>
+
+            <nav class="menu">
+                <a class="menu__item up" href="https://it.wikipedia.org/wiki/Blockchain" target="_blank">Cos'è una blockchain</a>
+                <a class="menu__item down" href="https://bitcoin.org/it/" target="_blank">Cos'è Bitcoin</a>
+                <a class="menu__item up" href="https://www.ethereum.org/" target="_blank">Il progetto Ethereum</a>
+                <a class="menu__item down" href="https://github.com/ethereum/wiki/wiki/%5BItalian%5D-Libro-Bianco" target="_blank">Dettagli tecnici</a>
+                <a class="menu__item up" href="https://github.com/ethereum/" target="_blank">Codice sorgente</a>
+            </nav>
+
+        </header>
+
+        <main id="main-content">
+
+            <aside class="intro">
+                <header>
+                    <h1 class="title">A poem for Ethereum</h1>
+                </header>
+                <main>
+                    <p>math is simple. nation money is simple; debt based. Debt is exponential...</p>
+                    <p>number basis is not mass basis; debt is decentralized; wealth concentrated.</p>
+                    <p>government, please. focus numbers on the real, people.</p>
+                    <p>war resolves debt to new concentrations.</p>
+                    <p>Neanderthal emotions; medieval administration; god like tech.</p>
+                    <p>Are you an individual or an ant?</p>
+                    <p>As we each choose no war, there is no war. The law... so far behind.</p>
+                    <p>
+                        <span class="highlight">The penny is gone.</span>
+                        Virtual value, destruction or build.
+                        A penny for a house or the dustbin.
+                    </p>
+                    <p>Enjoy the world; enjoy your thoughts.</p>
+                    <p>Money as asset or debt.</p>
+                </main>
+                <footer>
+                    <span>&copy; goatmine (fonte: <a href="https://forum.ethereum.org/discussion/2458/a-poem" target="_blank">forum.ethereum.org</a>)</span>
+                </footer>
+            </aside>
+
+            <section>
+
+                <h1 class="title">La storia</h1>
+
+                <p>Lo sviluppo di Ethereum è iniziato nel dicembre 2013, e le prime versioni del software in linguaggio <a href="/wiki/Go_(linguaggio_di_programmazione)" title="Go (linguaggio di programmazione)">Go</a> e in linguaggio <a href="/wiki/C%2B%2B" title="C++">C++</a> sono state rilasciate agli inizi del febbraio 2014.<sup id="cite_ref-6" class="reference"><a href="#cite_note-6">[6]</a></sup> Da allora sono state pubblicate diverse versioni successive, che hanno incluso lo sviluppo di tre linguaggi di programmazione appositamente creati per scrivere <i>smart contracts</i>: il Serpent (ispirato al linguaggio <a href="/wiki/Python" title="Python">Python</a>), il Mutan (ispirato al linguaggio <a href="/wiki/Go_(linguaggio_di_programmazione)" title="Go (linguaggio di programmazione)">Go</a>) e LLL (ispirato al linguaggio di programmazione <a href="/wiki/Lisp" title="Lisp">Lisp</a>).<sup id="cite_ref-7" class="reference"><a href="#cite_note-7">[7]</a></sup></p>
+
+                <figure class="right">
+					<img src="img/vitalik-buterin.jpeg">
+					<figcaption>Vitalik Buterin, fondatore di Ethereum.</figcaption>
+                </figure>
+                
+                <p>Per finanziare il lavoro di sviluppo, Ethereum ha lanciato <b>un'offerta pubblica di pre-vendita</b> di Ether. L'offerta pubblica è durata 42 giorni ed ha totalizzato la raccolta di 31.591 Bitcoin, pari (al tasso di cambio del 2 settembre 2014) a circa 18,4 milioni di dollari statunitensi, o 60.102.216 ETH.<sup id="cite_ref-8" class="reference"><a href="#cite_note-8">[8]</a></sup></p>
+
+                <p>La <a href="/wiki/Proof_of_concept" title="Proof of concept">Proof of Concept</a> numero 5, è stata distribuita su <a href="/wiki/GitHub" title="GitHub">GitHub</a> il 22 luglio 2014, contemporaneamente al lancio della prevendita di Ether, e comprendeva numerosi cambiamenti rispetto alla Proof of Concept precedente. Per la prima volta i due clients, uno scritto in <a href="/wiki/C%2B%2B" title="C++">C++</a> ed un altro in <a href="/wiki/Go_(linguaggio_di_programmazione)" title="Go (linguaggio di programmazione)">Go</a>, hanno iniziato ad interagire alla perfezione e lavorare sulla stessa <a href="/wiki/Blockchain" title="Blockchain">Blockchain</a>. Ad agosto 2014, un client scritto in <a href="/wiki/Python" title="Python">Python</a> è stato aggiunto alla lista delle piattaforme disponibili.</p>
+
+                <div class="obfuscated">
+					<div class="overlay">Contenuto offuscato...</div>
+					<p>Con la <a href="/wiki/Proof_of_concept" title="Proof of concept">Proof of Concept</a> numero 7 è stato lanciato Solidity, un linguaggio di programmazione ibrido, ispirato a <a href="/wiki/JavaScript" title="JavaScript">JavaScript</a>/<a href="/wiki/C%2B%2B" title="C++">C++</a>, contenente numerosi arricchimenti sintattici in modo da poter essere compatibile e versatile per la compilazione degli <i>smart contracts</i> su Ethereum. I tempi dei blocchi sono stati ridotti da 60 secondi ai 12 secondi, utilizzando un nuovo protocollo basato su GHOST.</p>
+				</div>
+
+                <p>Allo stato attuale Ethereum sta utilizzando la raccolta di fondi della pre-vendita per espandere le proprie operazioni, a partire dalla fondazione con base a <a href="/wiki/Zugo" title="Zugo">Zugo</a>, in <a href="/wiki/Svizzera" title="Svizzera">Svizzera</a> e con team di sviluppo a <a href="/wiki/Londra" title="Londra">Londra</a>, <a href="/wiki/Berlino" title="Berlino">Berlino</a> e <a href="/wiki/Amsterdam" title="Amsterdam">Amsterdam</a>. La versione beta con rete funzionante e in cui il mining dà ricompensa in vero ether, detta Frontier, è stata distribuita il 30 luglio 2015<sup id="cite_ref-9" class="reference"><a href="#cite_note-9">[9]</a></sup>. Inoltre, è stato lanciato un programma di ricerca di <i>bugs</i> (errori di programmazione) aperto alla comunità degli sviluppatori.<sup id="cite_ref-10" class="reference"><a href="#cite_note-10">[10]</a></sup></p>
+
+                <p>Ethereum è un progetto <a href="/wiki/Open_source" title="Open source">open source</a>, ed ogni sviluppatore è in grado di contribuire al <a href="/wiki/Codice_sorgente" title="Codice sorgente">codice sorgente</a>.</p>
+
+                <p>L'unità di conto della valuta di Ethereum si chiama Ether ed è abbrieviata dal simbolo ETH. L'ether è divisa in sottounità di conto chiamate <b>finney</b>, <b>szabo</b>, <b>shannon</b>, <b>babbage</b>, <b>lovelace</b>, e <b>wei</b>, rispettivamente in onore di <a href="/w/index.php?title=Hal_Finney&amp;action=edit&amp;redlink=1" class="new" title="Hal Finney (la pagina non esiste)">Hal Finney</a>, <a href="/w/index.php?title=Nick_Szabo&amp;action=edit&amp;redlink=1" class="new" title="Nick Szabo (la pagina non esiste)">Nick Szabo</a>, <a href="/wiki/Claude_Shannon" title="Claude Shannon">Claude Shannon</a>, <a href="/wiki/Charles_Babbage" title="Charles Babbage">Charles Babbage</a>, <a href="/wiki/Ada_Lovelace" title="Ada Lovelace">Ada Lovelace</a> e <a href="/w/index.php?title=Wei_Dai&amp;action=edit&amp;redlink=1" class="new" title="Wei Dai (la pagina non esiste)">Wei Dai</a>, personalità più o meno note nel mondo della crittografia, programmazione e criptovalute.</p>
+
+            </section>
+
+        </main>
+
+        <footer id="main-footer">
+            Fonte: <a href="https://it.wikipedia.org/wiki/Ethereum" target="_blank">Wikipedia</a>.
+        </footer>
+        
+        <div id="cookie-notice">
+			Questo sito non usa cookie.
+			<a href="http://www.garanteprivacy.it/cookie" target="_blank">Per saperne di più.</a>
+			<button onclick="javascript:document.getElementById('cookie-notice').setAttribute('style','display:none');">Ok, ho capito!</button>
+        </div>
+
+    </body>
+
+</html>
